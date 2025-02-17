@@ -25,4 +25,10 @@ public class BalancedBrackets {
             return "NO";
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println(isBalanced("{[()]}"));
+        System.out.println(isBalanced("{[(])}"));
+        System.out.println(isBalanced("{{[[(())]]}}"));
+    }
 }
