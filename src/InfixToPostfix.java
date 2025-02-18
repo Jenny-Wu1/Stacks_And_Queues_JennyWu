@@ -40,4 +40,10 @@ public class InfixToPostfix {
         }
         return postfix;
     }
+
+    public static void main(String[] args) {
+        String infix = "a+b*(c^d-e)^(f+g*h)-i";
+        String postfix = convertToPostfix(infix);
+        System.out.println(postfix);
+    }
 }
